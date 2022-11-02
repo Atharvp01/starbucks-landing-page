@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header.section{
+    margin-top: 0;
+    margin-left: 4rem;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-logo{
+    margin-top: 1rem;
+    max-width: 80px;
+    max-height: 65px;
+}
+
+.nav__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 5rem;
+}
+
+.link-container{
+    margin-left: 3.5rem;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+} 
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+}
+
+header ul li{
+    list-style: none;
+}
+
+.main.section{
+    margin-left: 4rem;
+    margin-bottom: 0;
+}
+
+#header-highlight{
+    font-weight: bold;
+    color: #017143;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main.section h1{
+    padding-top: 2rem;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 0;
+}
+
+.main__text{
+    max-width: 500px;
+}
+
+#learn-more{
+    background-color: #017143;
+    border: none;
+    color: white;
+    border-radius: 1.5rem;
+    padding: .75rem 1.25rem;
+    cursor: pointer;
+}
+
+.drinks{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* background-color: #017143; */
+    /* border-radius: 1000px 0px 0px 0px; */
+    width: 450px; 
+    /* height: 400px;
+    /* margin-bottom: 0; */
+}
+
+#green-drink{
+    height: 400px;
+    position: relative;
+    right: -3rem;
+    bottom: 1.5rem;
+}
+
+.social__links{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+}
+
+.social{
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#drinks{
+    display: flex;
+    padding-left: 400px;
+
+    /* justify-content: space-between; */
+}
+
+.drink{
+    height: 80px;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    margin-bottom: 0;
+    transition: .3s all ease-in-out;
+}
+
+.drink:hover{
+    transform: translateY(-10px);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(450px at right 600px);
+}
+
+
